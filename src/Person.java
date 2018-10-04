@@ -1,5 +1,5 @@
 public abstract class Person {
-    public String firstName, familyName;
+    private String firstName, familyName;
     public Person(String firstName, String familyName){
         this.firstName = firstName;
         this.familyName = familyName;
