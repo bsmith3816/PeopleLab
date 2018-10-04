@@ -1,7 +1,6 @@
 public abstract class Person {
     private String firstName, familyName;
     public Person(String firstName, String familyName){
-        super("Person");
         this.firstName = firstName;
         this.familyName = familyName;
     }
@@ -24,5 +23,4 @@ public abstract class Person {
         }
         else return false;
     }
-
 }
