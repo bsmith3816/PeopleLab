@@ -1,5 +1,5 @@
 public abstract class Person {
-    private String firstName, familyName;
+    public String firstName, familyName;
     public Person(String firstName, String familyName){
         this.firstName = firstName;
         this.familyName = familyName;
@@ -24,3 +24,4 @@ public abstract class Person {
         else return false;
     }
 }
+
