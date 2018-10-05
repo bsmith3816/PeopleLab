@@ -5,13 +5,11 @@ public class Teacher extends Person{
         super(firstName, familyName);
         this.subject = subject;
         this.title = title;
-        this.getFirstName() = firstName;
-        this.getFamilyName() = familyName;
     }
     public String getSubject(){
         return subject;
     }
     public String toString(){
-        return title + ". " + familyName;
+        return title + ". " + getFamilyName();
     }
 }
