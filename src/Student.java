@@ -4,9 +4,9 @@ public class Student extends Person
     private int height;
 
 
-    public Student(double gpa, int height,String firstname, String familyname)
+    public Student(double gpa, int height,String firstName, String familyName)
     {
-        super(firstname, familyname);
+        super(firstName, familyName);
         this.height= height;
         this.gpa= gpa;
     }
@@ -19,10 +19,19 @@ public class Student extends Person
     {
         return height;
     }
+    public String getFamilyName()
+    {
+        return familyName;
+    }
+
+    public String getFirstName()
+    {
+        return firstName;
+    }
 
     @Override
     public String toString()
     {
-        return "Student{height = "+ height}";
+        return firstName+" "+familyName;
     }
 }
