@@ -23,6 +23,6 @@ public class Student extends Person
     @Override
     public String toString()
     {
-        return "Student{" + "gpa=" + gpa + ", height=" + height + '}';
+        return "Student{" + ", height=" + height + '}';
     }
 }
