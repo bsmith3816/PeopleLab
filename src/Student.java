@@ -19,5 +19,10 @@ public class Student extends Person
     {
         return height;
     }
-    
+
+    @Override
+    public String toString()
+    {
+        return "Student{" + "gpa=" + gpa + ", height=" + height + '}';
+    }
 }
