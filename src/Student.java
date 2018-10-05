@@ -13,25 +13,25 @@ public class Student extends Person
     @Override
     public double getGpa()
     {
-        return gpa;
+        return this.gpa;
     }
     public int getHeight()
     {
-        return height;
+        return this.height;
     }
     public String getFamilyName()
     {
-        return familyName;
+        return this.familyName;
     }
 
     public String getFirstName()
     {
-        return firstName;
+        return this.firstName;
     }
 
     @Override
     public String toString()
     {
-        return firstName+" "+familyName;
+        return firstName+","+familyName;
     }
 }
