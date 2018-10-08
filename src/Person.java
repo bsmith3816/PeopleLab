@@ -23,8 +23,8 @@ public abstract class Person {
         this.familyName = familyName;
     }
 
-    public boolean equals(Person person){
-        if(this.firstName.equals(person.getFirstName()) && this.familyName.equals(person.getFamilyName())){
+    public boolean equals(Person p){
+        if(this.firstName.equals(p.getFirstName()) && this.familyName.equals(p.getFamilyName())){
             return true;
         }
         else return false;
